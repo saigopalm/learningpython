@@ -28,7 +28,7 @@ def convert():
     l2.place(relx = 0.001, rely = 0.5)
 
 l3 = Label(win, text = "              Created in Gopal Labs                     ", bg = '#255248', fg='white')
-l3.config(font=("Courier New",15, "bold"))
+l3.config(font=("Courier",15, "bold"))
 l3.place(relx = 0, rely = 0.9)
 
 button = Button(win, text = 'Convert', height = 4, width = 5, command = convert, bg= '#567', fg='white')
