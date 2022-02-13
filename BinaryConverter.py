@@ -16,4 +16,3 @@ num = int(input())
 bin = convert(num)      # calling the convert function
 
 print('The number you entered in binary form is ' + bin)
-
